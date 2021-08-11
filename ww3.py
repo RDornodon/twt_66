@@ -1,2 +1,1 @@
-for I in[I:=input]*int(I()):K=I();L=len(K);print(any('2020'==K[:4-l]+K[L-l:]for l in range(5))and 3<L)
-
+for I in[I:=input]*int(I()):K=I();print('2020'in[K[:l]+K[l:][len(K)-4:]for l in range(5)])
